@@ -41,9 +41,6 @@ class LocalAssetTwigExtension extends AbstractExtension
         $this->publicDirectory = rtrim($publicDirectory, '/') . '/';
     }
 
-    /**
-     * {@inheritdoc}
-     */
     public function getFunctions()
     {
         return [
@@ -51,9 +48,6 @@ class LocalAssetTwigExtension extends AbstractExtension
         ];
     }
 
-    /**
-     * {@inheritdoc}
-     */
     public function getFilters()
     {
         return [
